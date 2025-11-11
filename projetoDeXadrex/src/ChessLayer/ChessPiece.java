@@ -2,7 +2,7 @@ package ChessLayer;
 
 import BoardLayer.*;
 
-public abstract /*verificar se é realmente abstrata*/class ChessPiece extends Piece {
+public  void/*verificar se é realmente abstrata*/class ChessPiece extends Piece {
 	protected Color color;
 	protected Integer MoveCount;
 	
