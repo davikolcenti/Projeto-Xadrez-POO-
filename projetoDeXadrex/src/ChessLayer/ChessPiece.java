@@ -12,18 +12,18 @@ public  void/*verificar se é realmente abstrata*/class ChessPiece extends Piece
 		
 	}
 	
-	public boolean isThereOpponentPiece(Position position) {
+	private boolean isThereOpponentPiece(Position position) {
 		return false;
-		//provavelmente é interface;
 	}
 	
-	public void increaseMoveCount() {
-		//provavelmente é interface;
+	private void increaseMoveCount() {
+		MoveCount=MoveCount+1;
 	}
 	
-	public void decreaseMoveCount() {
-		//provavelmente é interface;
+	private void decreaseMoveCount() {
+		MoveCount=MoveCount-1;
 	}
 }
+
 
 
