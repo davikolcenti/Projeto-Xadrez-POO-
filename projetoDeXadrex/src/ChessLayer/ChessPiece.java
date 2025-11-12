@@ -2,11 +2,10 @@ package ChessLayer;
 
 import BoardLayer.*;
 
-public  void/*verificar se é realmente abstrata*/class ChessPiece extends Piece {
+public void public class ChessPiece extends  Piece {
 	protected Color color;
 	protected Integer MoveCount;
-	
-	//ChessPosition é interpretado como um tipo... 
+
 	public ChessPosition getChessPosition() {
 		return null;
 		
