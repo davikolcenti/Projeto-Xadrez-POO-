@@ -3,6 +3,7 @@ package BoardLayer;
 public class Position {
 	protected int row;
 	protected int column;
+	
 	public Position(int row, int column) {
 		this.row=row;
 		this.column=column;
@@ -28,3 +29,4 @@ public class Position {
         return "( "+ row +" , " + column + ")";
     }
 }
+
