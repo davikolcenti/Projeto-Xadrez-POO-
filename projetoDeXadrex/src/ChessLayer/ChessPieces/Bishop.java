@@ -11,7 +11,7 @@ import ChessLayer.ChessPiece;
 
     //@Override
    // public boolean possibleMoves() {
-		//// TODO Auto-generated method stub
+		//TODO Auto-generated method stub
 	//	return false;
 	//}
 
