@@ -24,8 +24,7 @@ public class Position {
     public void setRow(int row) {
         this.row = row;
     }
-    // gdhhdsdughdgewgdhewihdihqui
-    //dhhuhdewhdfewdij
+
     @Override
     public String toString(){
         return "( "+ row +" , " + column + ")";
