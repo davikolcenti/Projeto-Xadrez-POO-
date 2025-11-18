@@ -2,11 +2,15 @@ package ChessLayer;
 
 import BoardLayer.*;
 
-public void public class ChessPiece extends  Piece {
+public abstract class ChessPiece extends  Piece {
 	protected Color color;
 	protected Integer MoveCount;
 
-	public ChessPosition getChessPosition() {
+    public ChessPiece(Board board) {
+        super(board);
+    }
+
+    public ChessPosition getChessPosition() {
 		return null;
 		
 	}
