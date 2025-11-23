@@ -1,13 +1,13 @@
 package BoardLayer;
 
 public class Position {
-	protected int row;
-	protected int column;
+    protected int row;
+    protected int column;
 
-	public Position(int row, int column) {
-		this.row=row;
-		this.column=column;
-	}
+    public Position(int row, int column) {
+        this.row=row;
+        this.column=column;
+    }
 
     public int getColumn() {
         return column;
@@ -30,4 +30,9 @@ public class Position {
         return "( "+ row +" , " + column + ")";
     }
 
+    // Correção: Este método é essencial para atualizar a posição
+    public void setValues(int row, int column) {
+        this.row = row;
+        this.column = column;
+    }
 }

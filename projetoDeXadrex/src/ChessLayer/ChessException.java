@@ -1,7 +1,12 @@
 package ChessLayer;
 
-public class ChessException {
-	public ChessException(String msg) {
-		//perguntar ao professor depois sobre isso
-	}
+import BoardLayer.BoardException;
+
+public class ChessException extends BoardException {
+
+    private static final long serialVersionUID = 1L;
+
+    public ChessException(String msg) {
+        super(msg);
+    }
 }
