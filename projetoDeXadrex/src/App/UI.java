@@ -54,14 +54,11 @@ public class UI {
             throw e;
         }
         catch (ChessException e) {
-            // Captura o erro da ChessPosition e relança como InputMismatchException
             throw new InputMismatchException(e.getMessage());
         } catch (RuntimeException e) {
-            // Captura o ChessException e relança como InputMismatchException
             throw new InputMismatchException(e.getMessage());
         }
     }
-
     // Imprime o estado completo da partida (tabuleiro, peças capturadas, turno, check)
     public static void printMatch(ChessMatch chessMatch, List<ChessPiece> captured) {
         printBoard(chessMatch.getPieces());

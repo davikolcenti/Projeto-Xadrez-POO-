@@ -10,7 +10,6 @@ import ChessLayer.ChessMatch;
 import ChessLayer.ChessPiece;
 import ChessLayer.ChessPosition;
 
-// Removido 'throws Throwable' - as exceções devem ser tratadas internamente
 public class Progama {
 
     public static void main(String[] args) {
